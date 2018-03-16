@@ -3,7 +3,7 @@ Functions for commonly used EOS functions
 
 ## Installation
 ```R
-devtools::install_git("https://github.com/AdaptiveCompBio/EOS.git")
+devtools::install_github("AdaptiveCompBio/EOS")
 ```
 
 ## Functions
