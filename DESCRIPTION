@@ -1,0 +1,15 @@
+Package: EOS
+Type: Package
+Title: Commonly used functions for the EOS project
+Version: 1.04
+Date: 2018-01-24
+Author: Travers Ching
+Maintainer: Travers <tching@adaptivebiotech.com>
+Description: Commonly used functions for the EOS project
+License: GPL (>= 2)
+Imports: Rcpp (>= 0.12.13.1), stringi, igraph, data.table, dplyr, minpack.lm, ggthemes, survival, survminer, goftte, rootSolve
+Depends: ggplot2, scales
+LinkingTo: Rcpp, BH, RcppMsgPack
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1

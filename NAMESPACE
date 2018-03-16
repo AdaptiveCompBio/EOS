@@ -1,0 +1,3 @@
+useDynLib(EOS, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
